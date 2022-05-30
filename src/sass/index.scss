@@ -1,8 +1,6 @@
-@import 'libs/vars';
 @import 'libs/mixins';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
 
 // Breakpoints.
@@ -101,33 +99,21 @@
 		}
 
 	body {
-		background-color: #f7f7f7;
+		background-color: #222831;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 13pt;
-		color: #696969;
-		font-weight: 300;
-		line-height: 2.25em;
-	}
-
-	input, select, textarea {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 13pt;
-		color: #696969;
+		color: #EEEEEE;
 		font-weight: 300;
 		line-height: 2.25em;
 	}
 
 	a {
-		color: #0090c5;
-		text-decoration: underline;
-
-		&:hover {
-			text-decoration: none;
-		}
+		color: #965db1;
+		text-decoration: none;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #444;
+		color: #FFD369;
 		font-weight: 800;
 
 		a {
@@ -148,29 +134,8 @@
 		margin: 0 0 1em 0;
 	}
 
-	b, strong {
-		font-weight: 600;
-		color: #444;
-	}
-
 	i, em {
 		font-style: italic;
-	}
-
-	br.clear {
-		clear: both;
-	}
-
-	sub {
-		position: relative;
-		top: 0.5em;
-		font-size: 0.8em;
-	}
-
-	sup {
-		position: relative;
-		top: -0.5em;
-		font-size: 0.8em;
 	}
 
 	hr {
@@ -445,7 +410,7 @@
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #393E46;
 		border-radius: 6px;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 2em;
@@ -587,8 +552,8 @@
 		display: inline-block;
 
 		h1 {
-			background: #ff4486;
-			color: #fff;
+			background: #FFD369;
+			color: #222831;
 			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
 			font-weight: 400;
@@ -660,66 +625,6 @@
 			}
 		}
 	}
-
-	.dropotron {
-		background: #fff;
-		letter-spacing: 0.025em;
-		color: #696969;
-		text-decoration: none;
-		border-radius: 6px;
-		padding: 0.75em 0;
-		min-width: 15em;
-		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0.25em 0.25em 0.1em rgba(0, 0, 0, 0.025);
-		margin-top: calc(-0.75em + 1px);
-		margin-left: -1px;
-		list-style: none;
-		padding-left: 0;
-
-		li {
-			border-top: solid 1px #eee;
-			line-height: 3em;
-			padding-left: 0;
-
-			&:first-child {
-				border-top: 0;
-			}
-
-			> a, > span {
-				text-decoration: none;
-				color: inherit;
-				display: block;
-				padding: 0 1.5em;
-
-				&:hover {
-					background: #eee;
-				}
-			}
-
-			&.active {
-				> a, > span {
-					background: #eee;
-				}
-			}
-		}
-
-		&.level-0 {
-			font-size: 0.8em;
-			margin-left: 1.5em;
-			margin-top: 0;
-
-			&:before {
-				content: '';
-				position: absolute;
-				top: -0.5em;
-				left: 1em;
-				border-bottom: solid 0.75em #ffffff;
-				border-left: solid 0.75em transparent;
-				border-right: solid 0.75em transparent;
-				z-index: 1;
-			}
-		}
-	}
-
 /* Banner */
 
 	#banner {
