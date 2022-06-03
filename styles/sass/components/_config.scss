@@ -1,0 +1,72 @@
+// Breakpoints.
+@include breakpoints((
+	xlarge:   ( 1281px,  1680px ),
+	large:    ( 981px,   1280px ),
+	medium:   ( 737px,   980px  ),
+	small:    ( null,    736px  )
+));
+
+/* Basic */
+
+@-ms-viewport {
+	width: device-width;
+}
+
+// Set box model to border-box.
+// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+body {
+	background-color: #222831;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13pt;
+	color: #EEEEEE;
+	font-weight: 300;
+	line-height: 2.25em;
+}
+
+a {
+	color: #965db1;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #FFD369;
+	font-weight: 800;
+
+	a {
+		color: inherit;
+		text-decoration: none;
+		outline: 0;
+	}
+}
+
+h2 {
+	font-size: 2.25em;
+	margin: 0 0 1.1em 0;
+	line-height: 1em;
+}
+
+h3 {
+	font-size: 1.35em;
+	margin: 0 0 1em 0;
+}
+
+i, em {
+	font-style: italic;
+}
+
+hr {
+	border: 0;
+	border-top: solid 1px #eee;
+}
+
+p, ul, ol, dl, table {
+	margin-bottom: 2em;
+}
