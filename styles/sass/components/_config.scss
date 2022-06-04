@@ -23,7 +23,7 @@
 	}
 
 body {
-	background-color: #222831;
+	background-color: $bg-color;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13pt;
 	color: #EEEEEE;
@@ -32,12 +32,12 @@ body {
 }
 
 a {
-	color: #965db1;
+	color: $fs-color;
 	text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #FFD369;
+	color: $primary-color;
 	font-weight: 800;
 
 	a {

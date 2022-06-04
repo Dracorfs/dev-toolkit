@@ -84,18 +84,6 @@
 				margin: 2em 0 0 0;
 			}
 		}
-
-	/* Content */
-
-		#content {
-			border-bottom: solid 1px #e8e8e8;
-			padding-bottom: 4em;
-			margin-bottom: 0 !important;
-
-			> :last-child {
-				margin-bottom: 0 !important;
-			}
-		}
 }
 
 /* Small */
@@ -211,12 +199,5 @@
 				line-height: 1.5em;
 				margin: 0;
 			}
-		}
-
-	/* Content */
-
-		#content {
-			padding-bottom: 3em;
-
 		}
 }
