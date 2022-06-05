@@ -1,0 +1,23 @@
+.card {
+    display: grid;
+    cursor: pointer;
+    grid-template-rows: 50px 1fr;
+    &:hover .card-desc {
+        transform: translateY(1.5em);
+    }
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+    .card-desc {
+        h2 {
+            font-size: 1.35rem;
+        }
+        border-radius: 10px;
+        padding: 2em 2em 0 2em;
+        position: relative;
+        background-color: $card-color;
+        p {
+            color: #EEE;
+        }
+        transition: 0.2s;
+        
+    }
+}
