@@ -6,10 +6,24 @@
 	small:    ( null,    736px  )
 ));
 
-/* Basic */
+// Basic
 
 @-ms-viewport {
 	width: device-width;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+	background-color: $bg-color;
+}
+::-webkit-scrollbar-track {
+	background-color: $bg-color;
+}
+::-webkit-scrollbar-thumb {
+	background-color: $card-color;
+	&:hover {
+		background: $primary-color;
+	}
 }
 
 // Set box model to border-box.
@@ -67,6 +81,6 @@ hr {
 	border-top: solid 1px #eee;
 }
 
-p, ul, ol, dl, table {
+p, dl, table {
 	margin-bottom: 2em;
 }
