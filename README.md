@@ -1,6 +1,2 @@
-Based on the template: Verti by HTML5 UP
-html5up.net | @ajlkn
-Icons: Font Awesome (fontawesome.io)
-Other:
-	jQuery (jquery.com)
-	Responsive Tools (github.com/ajlkn/responsive-tools)
+<h3>My personal Frontend Developer Toolkit</h3> <br>
+<p>A collection of resources that I use for my projects</p>
